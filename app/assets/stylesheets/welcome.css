@@ -1,3 +1,26 @@
 #response {
-	min-height: 40vh;
+	max-height: 40vh;
+	overflow-y: auto;
+	overflow-x:hidden;
 }
+
+.message {	
+	border-radius: 5px;
+}
+.sent {
+	padding: 3px;
+	color:white;
+	background-color: #337ab7;
+	margin-left:60%;
+	/*float:right;*/
+}
+.received {
+	padding: 3px;
+	background-color: #ccc;
+	/*float: left;*/
+	margin-right: 60%;
+}
+
+/*#ask-form {
+	margin-top: 40vh;
+}*/
